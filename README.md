@@ -26,9 +26,12 @@ cd mcp-weather-bot
 
 # Start the MCP Weather Server
 ```python weather_server.py```
+
 This will start the MCP server on your local machine, listening for incoming requests.
 
 # Interact with the MCP Weather Server
 You can use the provided `weather_client.py` script to interact with the server.
+
 ```python weather_client.py```
+
 This client connects to the MCP server and requests weather information for a specified location.
